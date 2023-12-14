@@ -1,0 +1,18 @@
+
+@media all {
+	.swiper-slide.catalog-card-container {
+		width: 396.66px;
+		padding: 2px;
+	}
+}
+@media (max-width: 1310px) and (min-width: 884px) {
+	.section-archive .p__swiper {
+		width: 824px;
+		margin: auto;
+	}	
+}
+@media (max-width: 883px) {
+	.section-archive .swiper-wrapper {
+		margin: auto;
+	}
+}

@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'rub';
+	src:  url('RUBSN.ttf');
+	src: url('RUBSN.woff2') format('woff2'),
+		url('RUBSN.ttf') format('truetype'),
+		url('RUBSN.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+[data-currency-icon]:after, .rub:before {
+	font-family: 'rub';
+	content: ' \0443';
+	text-transform: none;
+	font-size: 0.96em;
+}

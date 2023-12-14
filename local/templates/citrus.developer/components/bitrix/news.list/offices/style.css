@@ -1,0 +1,103 @@
+@media all {
+    .office-list {
+
+    }
+    .office {
+		width: 1000px;
+		margin: auto;
+		max-width: 100%;
+		display: flex;
+    }
+    .office__img {
+		margin-right: 35px;
+		max-width: 50%;
+    }
+    .office__info {
+
+    }
+    .office__info .office__name {
+		margin-bottom: 20px;
+    }
+
+	.office .soc-list {
+		margin-top: 14px;
+	}
+}
+@media (max-width: 767px) {
+	.office {
+		flex-direction: column;
+	}
+	.office__img {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: none;
+	}
+}
+
+/*grid-one*/
+@media all {
+	.office-list._mode-grid-one .office__img._in-info {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.office-list._mode-grid-one .office__img._big {
+		display: none;
+	}
+	.office-list._mode-grid-one .office__img._in-info {
+		display: block;
+	}
+	.office-list._mode-footer .soc-list {
+		justify-content: center;
+	}
+}
+@media (max-width: 560px) {
+	h3.office__name {
+		text-align: left;
+	}
+}
+
+/*office-grid*/
+@media all {
+	.office-list._mode-grid {
+		display: flex;
+		margin: -15px;
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.office-list._mode-grid .office {
+		width: 33.333333%;
+		padding: 15px;
+		margin: 0;
+	}
+	.office-list._mode-grid .office__img {
+		margin-right: 0;
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 1023px) {
+	.office-list._mode-grid .office {
+		width: 50%;
+	}
+}
+@media (max-width: 767px) {
+	.office-list._mode-grid .office {
+		width: 100%;
+	}
+}
+
+/*footer office*/
+@media all {
+	.office-list._mode-footer a,
+	.office-list._mode-footer a.property__value-it__value:not(:hover),
+  	.office-list._mode-footer .properties [data-property-code^="PHONE"] a:not(:hover)
+    {
+		color: #cccccc;
+	}
+	.office-list._mode-footer a:hover {
+		text-decoration: none;
+	}
+}
+

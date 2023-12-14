@@ -1,0 +1,16 @@
+
+
+.partner-list .swiper-wrapper {
+
+}
+.swiper-slide.partner-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	height: auto;
+	padding: 10px 15px;
+}
+.partner-item img {
+	max-width: 100%;
+}

@@ -1,0 +1,9 @@
+
+@media all {
+	.share-row {
+		position: relative;
+	}
+	.share-row + .share-row {
+		margin-top: 68px;
+	}
+}

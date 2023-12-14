@@ -1,0 +1,13 @@
+
+/*template.php*/
+@media all {
+	.photo-progress__it {
+		margin-bottom: 20px;
+		text-align: center;
+		display: block;
+	}
+	.photo-progress__it img {
+		height: auto;
+		display: block;
+	}
+}

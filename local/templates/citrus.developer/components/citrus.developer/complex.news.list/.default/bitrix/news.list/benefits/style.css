@@ -1,0 +1,46 @@
+
+/*template.php*/
+@media all {
+    .benefits {
+
+    }
+    .benefit__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .benefit__icon-container {
+        font-size: 66px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        background-color: #fff;
+        width: 140px;
+        height: 140px;
+        flex-shrink: 0;
+        margin-bottom: 26px;
+        transition: .15s ease;
+    }
+        .benefit__icon {
+            max-width: 60%;
+        }
+    .benefit__text {
+        font-size: 16px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 1023px) {
+    .benefit__icon-container {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .benefit__text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

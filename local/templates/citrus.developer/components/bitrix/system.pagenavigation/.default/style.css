@@ -1,0 +1,38 @@
+
+@media all {
+	.switch {
+		margin: 60px 0 30px;
+		text-align: center;
+	}
+	.switch-nav {
+		margin: 0 auto;
+		display: table;
+	}
+	.switch a, .switch span {
+		font-size: 16px;
+		color: #333;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		text-align: center;
+		min-width: 43px;
+		height: 40px;
+	}
+	.switch a:hover,
+	.switch span.selected {
+		color: #fff;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.switch a+a,
+	.switch span+a {
+		margin-left: 10px;
+	}
+
+	.switch a.nav-end, .switch a.nav-start {
+		padding: 0 6px;
+	}
+}

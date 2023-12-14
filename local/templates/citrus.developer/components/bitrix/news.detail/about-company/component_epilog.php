@@ -1,0 +1,2 @@
+<?
+CJSCore::Init(['inview', 'countUp']);

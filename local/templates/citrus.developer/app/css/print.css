@@ -1,0 +1,46 @@
+
+@media print {
+	#bx-panel {
+		display: none !important;
+	}
+	.js-favorites-count {
+		display: none;
+	}
+
+	.h__top {
+		padding: 10px 0;
+	}
+	.h__top._fixed {
+		position: relative;
+	}
+	.h__logo._jk {
+		height: 70px;
+	}
+	.svg-logo {
+		width: 60px;
+	}
+	.h__logo._developer {
+		height: 70px;
+	}
+	.h {
+		height: 95px;
+	}
+	section.section._with-padding .section-inner {
+		padding: 35px 0;
+	}
+	.section__header {
+		margin-bottom: 40px;
+	}
+
+	h1, .h1 {
+		font-size: 40px;
+	}
+	.section-description {
+		font-size: 18px;
+	}
+
+	/*detail page*/
+	.bx-component-opener {
+		display: none !important;
+	}
+}

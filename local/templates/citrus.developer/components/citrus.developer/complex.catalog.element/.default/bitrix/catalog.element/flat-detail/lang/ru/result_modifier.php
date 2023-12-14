@@ -1,0 +1,1 @@
+<?$MESS["CITRUS_DEVELOPER_FLAT_READY_DATE"] = "Срок сдачи";

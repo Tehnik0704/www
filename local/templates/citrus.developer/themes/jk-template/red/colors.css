@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #ce3a12;
+  --hover-color: #a82f0f;
+  --link-color: var(--primary-color); }
+
+@media all {
+  .tippy-tooltip.template-color-theme, .theme--bg-color, .h__order-call, .jk-menu-w, .btn.btn-primary, .btn.btn-secondary, .article > ul li:before, ul.square li:before, ul.round li:before, .modal-header, .h:after, .section-color-site, input.square-checkbox__input:checked + span + .plan-filter__label-text, .citrus-realty-mortgage .ui-slider-horizontal, .p__swiper .swiper-scrollbar-drag, span.irs-bar, .irs-from, .irs-to, .irs-single, .irs-bar-edge, .line-checkbox__item-input:checked + .line-checkbox__item-label, .switch-nav span.selected, .switch a:hover {
+    background-color: #ce3a12; }
+
+  .irs-bar-edge {
+    background: #ce3a12; }
+
+  .theme--color, .template-color-theme .tippy-arrow, ul.checked-list li:before, .h__logo._jk .logo__text-2, .cui-checkbox__checkmark, .house__property-value._done, .bx-no-touch .btn.btn-transparent:hover, .citrus-realty-mortgage .result-row.big-row span, .citrus-realty-mortgage .goods-price, input:checked + .filter-checkmark, .jk-menu__favorites-count, .h__right-icon-favorite__counter {
+    color: #ce3a12; }
+
+  .theme--border-color, input.square-checkbox__input:checked + span + .plan-filter__label-text, .mortgage-discount, .ui-widget-content .ui-state-default, span.irs-slider, .irs-bar-edge, .line-checkbox__item-label {
+    border-color: #ce3a12; } }
+
+@media all {
+  .h__order-call:hover, .jk-menu__link._selected, .jk-menu__link:hover, .btn.btn-primary:hover, .p__swiper .swiper-pagination-bullet.swiper-pagination-bullet-active, .square-checkbox__input:checked + .square-checkbox__checkmark:before {
+    background-color: #a82f0f; }
+
+  a, a:hover, .tabs__link._active, .chess-legend__it._selected, .chess-flat._selected, .plan-filter__open-filter._active, .properties .map-link, .photos-filter__year-it._selected, .sf__house-name, .mobile-favorite-link__favorites-count {
+    color: #a82f0f; }
+
+  .plan-card._active {
+    border-color: #a82f0f; } }
+
+@media (max-width: 1199px) {
+  a.jk-menu__link._selected, a.jk-menu__link:hover, .mobile-favorite-link._selected {
+    color: #a82f0f; } }
+
+@media (max-width: 767px) {
+  input.square-checkbox__input:checked + span + .plan-filter__label-text {
+    color: #a82f0f; } }

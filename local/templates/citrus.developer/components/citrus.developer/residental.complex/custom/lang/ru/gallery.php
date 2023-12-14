@@ -1,0 +1,3 @@
+<?
+$MESS["PHOTO_GALLERY_TITLE"] = "Галерея";
+$MESS["PHOTO_GALLERY_DESCRIPTION"] = "";

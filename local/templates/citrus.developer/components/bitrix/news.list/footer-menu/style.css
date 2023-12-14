@@ -1,0 +1,34 @@
+@media all {
+	menu.footer-projects {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	.footer-projects__li {
+
+	}
+	.footer-projects__li + .footer-projects__li {
+		margin-top: 12px;
+	}
+	.footer-projects__link {
+		color: #cccccc;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	.footer-projects__link:hover {
+		text-decoration: underline;
+		color: #fff;
+	}
+	.footer-projects__li._more {
+
+	}
+	.footer-more-projects {
+		display: block;
+		margin-top: 24px;
+		font-size: 13px;
+		color: #999999;
+	}
+	.footer-more-projects:hover {
+		color: #999999;
+	}
+}

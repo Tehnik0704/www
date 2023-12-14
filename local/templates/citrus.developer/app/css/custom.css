@@ -1,0 +1,384 @@
+.photo-progress__house, .photo-progress__date {
+    display: none;
+}
+span.logo-image__w {
+    font-size: 1.2em;
+    line-height: 1.1em;
+    text-align: center;
+}
+header.h._jk{height: 135px;}
+header.h._jk .h__inner {
+    height: 80px !important;
+}
+
+header.h._jk .h__logo {
+    height: 50px;
+}
+header.h._jk .logo-image__w img {
+    max-height: 80px;
+}
+.turn-list{display:none !important;}
+.chess-tippy__property:nth-child(2),.chess-tippy__property:nth-child(3),.chess-tippy__property:nth-child(4) {
+    display: none;
+}
+.catalog-detail__price {
+    display: none;
+}
+.citrus-sf-field[data-property-code="cost"], .citrus-sf-field[data-property-code="living_area"], .citrus-sf-field[data-property-code="kitchen_area"] {
+    display: none !important;
+}
+header.h:not(._jk), header.h:not(._jk) .h-fixed {
+    background-image: url(/upload/img/head.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header.h:not(._jk) .main-menu__link,header.h:not(._jk) a.main-menu__link:active {
+    color: #fff;
+}
+.main-slider__name {
+    font-weight: 600 !important;
+}
+.about-it__number {
+    font-size: 40px;
+}
+.house-logo1 {
+    height: 50px;
+    width: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.house-status1 {
+    height: 30px;
+    width: 100px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 1;
+}
+#bx_1970176138_263 .house-logo1,#bx_3966226736_263 .house-logo1{
+    background-image: url(/upload/img/vinsent-bel.png);
+}
+#bx_1970176138_262 .house-logo1,#bx_3966226736_262 .house-logo1 {
+    background-image: url(/upload/img/vesna-bel.png);
+}
+#bx_1970176138_264 .house-logo1,#bx_3966226736_264 .house-logo1 {
+    background-image: url(/upload/img/cial.png) !important;
+}
+#bx_1970176138_261 .house-logo1,#bx_3966226736_261 .house-logo1 {
+    background-image: url(/upload/img/Bogatyr-mini-logo.png);
+}
+#bx_1970176138_263 .house-status1,#bx_3966226736_263 .house-status1 {
+    background-image: url(/upload/img/new31.png);
+}
+#bx_1970176138_262 .house-status1,#bx_3966226736_262 .house-status1 {
+    background-image: url(/upload/img/new31.png);
+}
+#bx_1970176138_264 .house-status1,#bx_3966226736_261 .house-status1 {
+    background-image: url(/upload/img/dom-sdan.png);
+}
+#bx_1970176138_261 .house-status1,#bx_3966226736_264 .house-status1 {
+    background-image: url(/upload/img/dom-sdan.png);
+}
+a.favorites__property-main__name {
+    display: none;
+}
+.sf__house-list {
+    display: none;
+}
+.modal-body .order-call__phone-number {
+    display: none;
+}
+.photos-filter__bottom {
+    display: none;
+}
+section.section[data-settings-rel="description"] header.section__header {
+    display: none;
+}
+.plan-card__property-item:nth-child(2).plan-card__property-item:nth-child(3) {
+    display: none;
+}
+.about-slider .main-slider__content {
+    display: none;
+}
+footer.f {
+    background-color: #ffffff;
+    color: #000000;
+}
+.office-list._mode-footer a, .office-list._mode-footer a.property__value-it__value:not(:hover), .office-list._mode-footer .properties [data-property-code^="PHONE"] a:not(:hover) {
+    color: #000000;
+}
+footer .property__icon,.footer__bot,.footer__bot a, .footer__bot a:hover,.footer-menu__link,.footer-menu__link:hover,.footer__column-title,.footer-projects__link,.footer-projects__link:hover {
+    color: #000000;
+}
+.main-slider__content-blur {
+    background-image: none !important;
+    box-shadow: none;
+}
+.main-slider__content{padding: 0 20px;}
+.main-slider__name {
+    color: #fff;
+    text-shadow: 0 0 7px #000;
+}
+.main-slider__description {
+    color: #ffffff;
+    text-shadow: 0 0 3px #000;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+[data-catalog-view="cards"] .card-list__row {
+    justify-content: space-evenly;
+}
+.favorites-th, .favorites-td {
+    padding: 10px;
+}
+.favorites__property-name {
+    max-width: 150px;
+}
+.chess-legend__it._selected, .chess-flat._selected {
+    color: #ff0000;
+}
+.chess-section-flatnotfound {
+    filter: none;
+    opacity: .8;
+}
+.catalog-detail__right .catalog-detail__jk-link {
+    display: none;
+}
+a.mortgage-link {
+    display: none;
+}
+.about-vincent__text {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 10px 0;
+    width: 100%;
+    clear: both;
+}
+.about-vincent__img img {
+    width: 100%;
+}
+.about-vincent__text-block {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 10px 30px 10px 20px;
+    margin: 20px;
+    border-left: 3px solid #000;
+}
+.about-vincent__podpis {
+    font-style: italic;
+}
+.btn_vincent {
+    background: #7b614b;
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+    display: table;
+}
+.btn_vincent:hover{color: #fff;}
+.why_vincent h2 {
+    text-align: center;
+}
+.why_vincent {
+    padding-top: 50px;
+}
+#bx_652200627_block footer.section-footer {
+    display: none;
+}
+
+.article-image-container {
+    width: 100px !important;
+}
+.sf__house-list__jk {
+    display: block;
+}
+a.filter-more-link {
+    display: none;
+}
+header.h._jk .h__top.js-header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header.h._jk .jk-menu-fixed {
+    top: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.office-map {
+    display: none;
+}
+.office__info {
+    width: 100%;
+    text-align: center;
+}
+.office__info .property__it {
+    justify-content: center;
+}
+.office .soc-list {
+    justify-content: center;
+}
+header.h:not(._jk) .h__phone-number {
+    display: block !important;
+    color: #fff;
+}
+div#bx_1373174309_block {
+    display: none;
+}
+.footer__column-title {
+    text-align: center;
+}
+.favorites .swiper-slide:nth-child(2) .favorites__property-value:after {
+    content: ' к.';
+}
+.favorites .swiper-slide:nth-child(3) .favorites__property-value:after {
+    content: ' эт.';
+}
+.mychess_prop {
+    display: none;
+}
+.mychess_prop:first-child {
+    display: block;
+}
+.mychess_prop div {
+    line-height: 1em;
+    text-align: center;
+}
+.article._reverse {
+    flex-direction: inherit;
+}
+
+.jk_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.jk_icons article {
+    width: 48%;
+}
+.jk_icons article:first-child,article#bx_3218110189_180 {
+    width: 100%;
+}
+.jk_icons article .article-content {
+    font-size: 14px;
+}
+.jk_icons article h2{font-size: 20px;}
+.jk_icons .article + .article{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.plan-catalog-detail {
+    flex-direction: column-reverse;
+}
+.plan-catalog-detail .catalog-detail__left {
+    width: 100%;
+    padding-right: 0;
+}
+.plan-catalog-detail .catalog-detail__right {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.plan-catalog-detail .catalog-detail__image-link {
+    padding-bottom: 40%;
+}
+.flat-catalog-detail .p__swiper .swiper-pagination-bullet:nth-child(4),
+.flat-catalog-detail .catalog-detail__image-link:nth-child(4){
+    display: none;
+}
+.filter__items .citrus-sf-field[data-property-code="cost"], .filter__items .citrus-sf-field[data-property-code="living_area"], .filter__items .citrus-sf-field[data-property-code="kitchen_area"] {
+    display: none !important;
+}
+.plan-card__property-item:nth-child(2) {
+    display: none;
+}
+@media (max-width: 1200px){
+header.h:not(._jk) .main-menu__link, header.h:not(._jk) a.main-menu__link:active {
+    color: #000;
+}
+    header.h._jk {
+    height: 125px;
+}
+header.h._jk .jk-menu-fixed {
+    left: auto;
+}
+}
+@media (max-width: 991px){
+    
+}
+@media  (max-width: 767px){
+    .main-slider__description {
+    color: #000000;
+    text-shadow: 0 0 3px #000;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+.infrastructure-nav__text {
+    display: block !important;
+}
+header.h._jk {
+    height: 105px;
+}
+.main-slider__name,.main-slider__description {
+    color: #000;
+    text-shadow: none;
+}
+.article-mobile-image {
+    max-width: 90px;
+}
+.article-image-container {
+    display: block;
+}
+.article-mobile-image{display:none;}
+.article + .article {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.article-content h2, .article-content .h2 {
+    margin-bottom: 5px;
+}
+}
+@media (max-width: 560px){
+h1, .h1 {
+    font-size: 24px;
+}
+.about-it__number {
+    font-size: 30px;
+}
+.about-it__number:after {
+    height: 3px;
+}
+.h__phone-number{font-size: 16px;margin-right: 5px;}
+a.h__order-call.print-hidden,.h__logo._with-text .logo__text,a.h__order-call {
+    display: none;
+}
+}
+@media (max-width: 479px){
+    .article + .article {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.article-image-container {
+    width: 60px !important;
+    padding: 0 5px;
+}
+.article-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #24aa3c;
+}
+.article-content {
+    line-height: 1.2;
+}
+.logo-image__w img{max-width: 90px;}
+}

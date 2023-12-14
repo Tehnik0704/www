@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #ce3a12;
+  --hover-color: #a82f0f;
+  --link-color: var(--primary-color); }
+
+@media all {
+  .theme--bg-color, .btn.btn-primary, .btn.btn-secondary, .logo-image__default, .h__order-call, .h:after, .p__swiper .swiper-pagination-bullet.swiper-pagination-bullet-active, figure.effect-layla:before, .about-it__number:after, .section-color-site, .switch-nav span.selected, .switch a:hover, .modal-header, .projects-menu__item._spec, .catalog-card__footer:after, .article > ul li:before, ul.square li:before, ul.round li:before, .square-checkbox__input:checked + .square-checkbox__checkmark:before, .line-checkbox__item-input:checked + .line-checkbox__item-label, span.irs-bar, .irs-from, .irs-to, .irs-single, .irs-bar-edge {
+    background-color: #ce3a12; }
+
+  .line-checkbox__item-label {
+    border-color: #ce3a12; }
+
+  .theme--color, a, .turn-it__value._done, .logo__text-2, .bx-no-touch .btn.btn-transparent:hover, a.main-menu__link:active, a.main-menu__link:focus, .cui-checkbox__checkmark, a.projects-menu__item._selected .projects-menu__item-inner, .views-item._selected, .projects-menu-link, .sf-duplicate__checkbox:checked + .filter-checkmark {
+    color: #ce3a12; } }
+
+@media all {
+  .theme_hover--bg-color, .btn.btn-primary:hover, .h__logo:hover .logo-image-default, a.h__order-call:hover, .bx-no-touch .btn-sub:hover {
+    background-color: #a82f0f; }
+
+  .theme_hover--color, a:hover, .main-menu__li._selected .main-menu__link, .turn-more, .main-menu__link._hover {
+    color: #a82f0f; }
+
+  .square-checkbox__input:checked + .square-checkbox__checkmark::before {
+    background-color: #ce3a12; } }

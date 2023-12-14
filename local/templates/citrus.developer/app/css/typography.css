@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@media all {
+    
+    html, html.tag-html {
+        font-size: 15px;
+    }
+    body, body.tag-body {
+        font-size: 1em;
+        line-height: 1.5;
+        color: #333;
+        cursor: default;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    hr {
+        background-color: #c5b99f;
+        border: 0;
+        margin: 55px 0;
+        height: 1px!important;
+    }
+
+    a.dotted {
+        border-bottom: 1px dotted;
+        text-decoration: none;
+    }
+    a.solid {
+        border-bottom: 1px solid;
+        text-decoration: none;
+    }
+    a.dotted:hover {
+        border-bottom: none;
+    }
+
+    p {
+        margin: 0 0 1rem;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    .fw300 {
+        font-weight: 300;
+    }
+    .fw400 {
+        font-weight: 400;
+    }
+    .fw600, strong, b {
+        font-weight: 600;
+    }
+    .fw700 {
+        font-weight: 700;
+    }
+    .fw800 {
+        font-weight: 800;
+    }
+
+    .fs-i {
+        font-style: italic;
+    }
+    .tt-u {
+        text-transform: uppercase;
+    }
+    .tt-l {
+        text-transform: lowercase;
+    }
+
+    button, .not-selected {
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+
+    .break {
+        -ms-word-break: break-all;
+        word-break: break-all;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto
+    }
+    .ellipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        display: block
+    }
+
+    .pos-r {
+        position: relative;
+    }
+
+    .table {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    .table .tr {
+        display: table-row;
+        height: 100%;
+    }
+    .table .tc {
+        display: table-cell;
+    }
+
+    .text-up {
+        text-transform: uppercase;
+    }
+    .color-red {
+        color: #f20101;
+    }
+    .color-green {
+        color: #2b9719;
+    }
+    .color-black {
+        color: #000;
+    }
+
+    .font-small {
+        font-size: 13px;
+    }
+
+    .nobr {
+        white-space: nowrap;
+    }
+}
+@media (max-width: 560px) {
+    html, html.tag-html {
+        font-size: 14px;
+    }
+}
+
+/* h1-h6 */
+@media all {
+    h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 0;
+        margin-bottom: .5em;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #333;
+    }
+    h1, .h1 {
+        font-size: 50px;
+        font-weight: 300;
+        text-align: center;
+    }
+    h2, .h2 {
+        font-size: 35px;
+        font-weight: 300;
+        margin-top: 3rem;
+        text-align: center;
+        /*margin-bottom: 1.314285714285714em;*/
+        /*margin-bottom: 0.6857142857142857em;*/
+    }
+    h2:first-child, .h2:first-child {
+        margin-top: -0.125em;
+    }
+    h3, .h3 {
+        font-size: 20px;
+        color: #333;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    h3:first-child, .h3:first-child {
+        margin-top: -0.125em;
+    }
+    h4, .h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #333;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+    h4:first-child, .h4:first-child {
+        margin-top: -0.125em;/*-0.1714285714285714em*/
+    }
+    h5, .h5 {
+        font-size: 1.25rem;
+    }
+    h6, .h6 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+@media (max-width: 560px) {
+    h1, .h1, h2, .h2, h3, .h3 {
+        text-align: center;
+    }
+
+    h1, .h1 {
+        font-size: 35px;
+    }
+
+    h2, .h2 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    h3, .h3 {
+        font-size: 18px;
+    }
+
+    h4, .h4 {
+        font-size: 15px;
+    }
+}

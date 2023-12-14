@@ -1,0 +1,14 @@
+/.vscode
+/bitrix
+/upload
+/images
+/export
+**/vendor
+*.txt
+*.log
+*.svg
+*.png
+*.jpeg
+*.lock
+*.csv
+*.zip

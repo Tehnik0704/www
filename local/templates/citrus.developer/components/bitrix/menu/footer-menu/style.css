@@ -1,0 +1,36 @@
+
+/*template.php*/
+@media all {
+    .footer-menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+    }
+    .footer-menu__li {
+		padding: 0;
+		text-transform: uppercase;
+    }
+	.footer-menu__li + .footer-menu__li {
+		margin-top: 14px;
+	}
+    .footer-menu__link {
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+    }
+	.footer-menu__link:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+@media (max-width: 767px) {
+	.footer-menu {
+		text-align: center;
+	}
+}
+@media (max-width: 479px) {
+	.footer-menu__link {
+		font-size: 16px;
+	}
+}
